@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namanganliklar 24</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <div class="header-container container">
+            <a class="logo" href="index.html">
+                <img class="logo-img" src="img/logo.svg" alt="N24 logo">
+            </a>
+
+            <ul class="currency-rates">
+                <li class="currency-rates__item">
+                    <b class="currency-rates__type">$</b>
+                    <span class="currency-rates__value">10844.02</span>
+                </li>
+                <li class="currency-rates__item">
+                    <b class="currency-rates__type">Р</b>
+                    <span class="currency-rates__value">140.35</span>
+                </li>
+            </ul>
+
+            <form class="search-form">
+                <input class="search-form__input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
+            </form>
+
+            <div class="lang-toggle">
+                <a class="lang-toggle__link lang-toggle__link-active" href="index.html">УЗ</a>
+                <a class="lang-toggle__link" href="index.html/ru">РУ</a>
+            </div>
+
+            <a class="button button_primary" href="#">Войти</a>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="container">
+            <ul class="navigation-items">
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Главное</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Интересное</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Экономика</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Политика</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Общество</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Технологии</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Спорт</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Культура</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Происшествия</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-item__link" href="#">Наука</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /Navigation -->
+    
+    <!-- Banner -->
+    <aside class="header-banner container">
+        <a class="header-banner__link" href="#" target="_blank">
+            <img src="img/shopme-banner.jpg" alt="Shopme bannaer" width="1200" height="128" srcset="img/shopme-banner.jpg 1x, img/shopme-banner@2x.jpg 2x">
+        </a>
+    </aside>
+    <!-- /Banner -->
+    <!-- /Header section -->
+
+    <!-- Main section -->
+    <main class="main-section">
+        <div class="container">
+            <!-- <h1>Namanganliklar24 - сайт новостей</h1> -->
+            
+            <!-- Top news -->
+            <section class="top-news">
+                <!-- <h2 class="Топ новости"></h2> -->
+                <div class="news-section-cards">
+                    <div class="news-grid">
+                        <article class="news-grid__item article-card">
+                            <h3 class="card__title">
+                                <a class="card__title-link" href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a>
+                            </h3>
+                            <p class="card__text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+                            <img class="article-card__img" src="img/germany.jpg" alt="Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения" width="360" height="165" srcset="img/germany.jpg 1x, img/germany@2x.jpg 2x">
+                            <footer class="card__footer">
+                                <img class="card__footer-icon" src="img/krasnaya-vesna.jpg" alt="ИА Красная Весна" width="20" height="20" srcset="img/krasnaya-vesna.jpg 1x, img/krasnaya-vesna@2x.jpg 2x">
+                                <div class="card__source__time">
+                                    <span class="card__source">ИА Красная Весна</span>
+                                    <time datetime="2022-0215T15:55:00">15:55</time>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="news-grid__item article-card">
+                            <h3 class="card__title">
+                                <a class="card__title-link" href="#">Ученые доказали экспериментальным путем пользу покровных культур</a>
+                            </h3>
+                            <p class="card__text">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+                            <img class="article-card__img" src="img/wheat.jpg" alt="Ученые доказали экспериментальным путем пользу покровных культур" width="360" height="165" srcset="img/wheat.jpg 1x, img/wheat@2x.jpg 2x">
+                            <footer class="card__footer">
+                                <img class="card__footer-icon" src="img/gazetaru.jpg" alt="Газета.Ru" width="20" height="20" srcset="img/gazetaru.jpg 1x, img/gazetaru@2x.jpg 2x">
+                                <div class="card__source__time">
+                                    <span class="card__source">Газета.Ru</span>
+                                    <time datetime="2022-0215T12:54:00">12:54</time>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="news-grid__item article-card">
+                            <h3 class="card__title">
+                                <a class="card__title-link" href="#">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a>
+                            </h3>
+                            <p class="card__text">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+                            <img class="article-card__img" src="img/baidu.jpg" alt="Baidu запустила публичный сервис роботакси Apollo Go в Шанхае" width="360" height="165" srcset="img/baidu.jpg 1x, img/baidu@2x.jpg 2x">
+                            <footer class="card__footer">
+                                <img class="card__footer-icon" src="img/hitek-plus.jpg" alt="Хайтек+" width="20" height="20" srcset="img/hitek-plus.jpg 1x, img/hitek-plus@2x.jpg 2x">
+                                <div class="card__source__time">
+                                    <span class="card__source">Хайтек+</span>
+                                    <time datetime="2022-0215T13:44:00">13:44</time>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="news-grid__item article-card">
+                            <h3 class="card__title">
+                                <a class="card__title-link" href="#">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
+                            </h3>
+                            <p class="card__text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+                            <img class="article-card__img" src="img/iphone-13.jpg" alt="Стали известны ёмкости аккумуляторов всех моделей iPhone 13" width="360" height="165" srcset="img/iphone-13.jpg 1x, img/iphone-13@2x.jpg 2x">
+                            <footer class="card__footer">
+                                <img class="card__footer-icon" src="img/digger-logo.jpg" alt="Digger.ru" width="20" height="20" srcset="img/digger-logo.jpg 1x, img/digger-logo@2x.jpg 2x">
+                                <div class="card__source__time">
+                                    <span class="card__source">Digger.ru</span>
+                                    <time datetime="2022-0215T14:25:00">14:25</time>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="news-grid__item article-card">
+                            <h3 class="card__title">
+                                <a class="card__title-link" href="#">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</a>
+                            </h3>
+                            <p class="card__text">Во время презентации iPhone 13 Apple придала большое значение...</p>
+                            <img class="article-card__img" src="img/sars-cov-2.jpg" alt="Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2" width="360" height="165" srcset="img/sars-cov-2.jpg 1x, img/sars-cov-2@2x.jpg 2x">
+                            <footer class="card__footer">
+                                <img class="card__footer-icon" src="img/lenta.jpg" alt="Lenta.ru" width="20" height="20" srcset="img/lenta.jpg 1x, img/lenta@2x.jpg 2x">
+                                <div class="card__source__time">
+                                    <span class="card__source">Lenta.ru</span>
+                                    <time datetime="2022-0215T10:54:00">10:54</time>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="news-grid__item article-card">
+                            <h3 class="card__title">
+                                <a class="card__title-link" href="#">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
+                            </h3>
+                            <p class="card__text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+                            <img class="article-card__img" src="img/jac.jpg" alt="Китайская марка JAC повысила цены на лифтбек и пикап в России" width="360" height="165" srcset="img/jac.jpg 1x, img/jac@2x.jpg 2x">
+                            <footer class="card__footer">
+                                <img class="card__footer-icon" src="img/tarantas-news.png" alt="Тарантас Ньюс" width="20" height="20" srcset="img/tarantas-news.png 1x, img/tarantas-news@2x.png 2x">
+                                <div class="card__source__time">
+                                    <span class="card__source">Тарантас Ньюс</span>
+                                    <time datetime="2022-0215T10:44:00">10:44</time>
+                                </div>
+                            </footer>
+                        </article>
+                    </div>    
+                </div>
+            </section>
+
+            <!-- Notification-CTA -->
+            <section class="notification-cta">
+                <div class="notification-cta__text">
+                    Хотите быть в курсе свежих новостей? 
+                    <br>Включите уведомления!
+                </div>
+                <button class="button button_orange">Включить</button>
+            </section>
+
+            <!-- Global news -->
+            <div class="global-news__container">
+                <section class="global-news">
+                    <div class="global-news__list">
+                        <h2 class="global-news__heading">В мире</h2>
+                        <div class="news-list__item article-card__horizantal">
+                            <img class="article-card__horizantal-img" src="img/airplane.jpg" alt="" width="210" height="165" srcset="img/airplane.jpg 1x, img/airplane@2x.jpg 2x">
+                            <div class="article-card__horizantal-content">
+                                <h3 class="card__title">
+                                    <a class="card__title-link" href="#">Китайский Чунцин запустил чартерный рейс для студентов до Британии</a>
+                                </h3>
+                                <p class="article-card__horizantal-text">Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
+                                <footer class="card__footer">
+                                    <img class="card__footer-icon" src="img/krasnaya-vesna.jpg" alt="ИА Красная Весна" width="20" height="20" srcset="img/krasnaya-vesna.jpg 1x, img/krasnaya-vesna@2x.jpg 2x">
+                                    <div class="card__source__time">
+                                        <span class="card__source">ИА Красная Весна</span>
+                                        <time datetime="2022-0215T12:55:00">12:55</time>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+    
+                        <div class="news-list__item article-card__horizantal">
+                            <img class="article-card__horizantal-img" src="img/german-minister.jpg" alt="В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель" width="210" height="165" srcset="img/german-minister.jpg 1x, img/german-minister@2x.jpg 2x">
+                            <div class="article-card__horizantal-content">
+                                <h3 class="card__title">
+                                    <a class="card__title-link" href="#">В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель</a>
+                                </h3>
+                                <p class="article-card__horizantal-text">БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
+                                <footer class="card__footer">
+                                    <img class="card__footer-icon" src="img/tacc.jpg" alt="ТАСС" width="20" height="20" srcset="img/tacc.jpg 1x, img/tacc@2x.jpg 2x">
+                                    <div class="card__source__time">
+                                        <span class="card__source">ТАСС</span>
+                                        <time datetime="2022-0215T11:35:00">11:35</time>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+    
+                        <div class="news-list__item article-card__horizantal">
+                            <img class="article-card__horizantal-img" src="img/chinese-street.jpg" alt="Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас" width="210" height="165" srcset="img/chinese-street.jpg 1x, img/chinese-street@2x.jpg 2x">
+                            <div class="article-card__horizantal-content">
+                                <h3 class="card__title">
+                                    <a class="card__title-link" href="#">Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас</a>
+                                </h3>
+                                <p class="article-card__horizantal-text">За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
+                                <footer class="card__footer">
+                                    <img class="card__footer-icon" src="img/rbk.jpg" alt="РБК Инвестиции" width="20" height="20" srcset="img/rbk.jpg 1x, img/rbk.jpg@2x.jpg 2x">
+                                    <div class="card__source__time">
+                                        <span class="card__source">РБК Инвестиции</span>
+                                        <time datetime="2022-0215T09:35:00">09:35</time>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+    
+                        <div class="news-list__item article-card__horizantal">
+                            <img class="article-card__horizantal-img" src="img/china.jpg" alt="" width="210" height="165" srcset="img/china.jpg 1x, img/china.jpg@2x.jpg 2x">
+                            <div class="article-card__horizantal-content">
+                                <h3 class="card__title">
+                                    <a class="card__title-link" href="#">Китай раскритиковал заключенный Австралией, США и Великобританией антикитайский союз AUKUS</a>
+                                </h3>
+                                <p class="article-card__text">Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
+                                <footer class="card__footer">
+                                    <img class="card__footer-icon" src="img/solenka-info.png" alt="ИА Красная Весна" width="20" height="20" srcset="img/solenka-info.png 1x, img/solenka-info@2x.png 2x">
+                                    <div class="card__source__time">
+                                        <span class="card__source">Solenka.info</span>
+                                        <time datetime="2022-0215T19:43:00">19:43</time>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <button class="button news-button__grey" type="button">Показать ещё</button>
+                </section>
+    
+                <section class="sidebar-news__cards">
+                    <div class="sidebar-news__card">
+                        <h2 class="global-news__heading sidebar-news__heading">Главное</h2>
+                        <div class="sidebar-news__card-items">
+                            <h3 class="card__title sidebar-news__card-title">
+                                <a class="card__title-link" href="#">В Фергане создадут узбекско-пакистанский университет</a>
+                            </h3>
+                            <div class="card__source__time sidebar-news__card-source-time">
+                                <span class="card__source">РБК Инвестиции</span>
+                                <time datetime="2022-0215T09:35:00">09:35</time>
+                            </div>
+                        </div> 
+                        <div class="sidebar-news__card-items">
+                            <h3 class="card__title sidebar-news__card-title">
+                                <a class="card__title-link" href="#">Узбекистан утвердил соглашение о содействии занятости в странах СНГ</a>
+                            </h3>
+                            <div class="card__source__time sidebar-news__card-source-time">
+                                <span class="card__source">ИА Красная Весна</span>
+                                <time datetime="2022-0215T10:19:00">10:19</time>
+                            </div>
+                        </div>
+                        <div class="sidebar-news__card-items">
+                            <h3 class="card__title sidebar-news__card-title">
+                                <a class="card__title-link" href="#">В Узбекистане увеличиваются очереди за автомобилями UzAuto</a>
+                            </h3>
+                            <div class="card__source__time sidebar-news__card-source-time">
+                                <span class="card__source">Северная газета (Армянск)</span>
+                                <time datetime="2022-0215T13:50:00">13:50</time>
+                            </div>
+                        </div>
+                        <div class="sidebar-news__card-items">
+                            <h3 class="card__title sidebar-news__card-title">
+                                <a class="card__title-link" href="#">Минтуризма опровергло приостановку выплат за шаги</a>
+                            </h3>
+                            <div class="card__source__time sidebar-news__card-source-time">
+                                <span class="card__source">Sputnik Узбекистан</span>
+                                <time datetime="2022-0215T14:32:00">4:32</time>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="sidebar-news__img-link" href="#" target="_blank">
+                        <img class="sidebar-news__img" src="img/olmos-uy.jpg" alt="Olmos uy reklamasi" width="393" height="338" srcset="img/olmos-uy.jpg 1x, img/olmos-uy@2x.jpg 2x">
+                    </a>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- /Main section -->
+</body>
+</html>
