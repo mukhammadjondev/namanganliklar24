@@ -162,7 +162,10 @@ img {
     padding-top: 12px;
     padding-bottom: 12px;
     margin-bottom: 40px;
-    border-bottom: 1px solid #d1d1d1;
+}
+
+.navigation-divider {
+    border: 1px solid #d1d1d1;
 }
 
 .navigation-items {

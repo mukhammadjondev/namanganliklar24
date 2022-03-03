@@ -1,0 +1,82 @@
+.form-section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.form-container {
+    width: 696px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button {
+    align-self: flex-end;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-field__wrapper {
+    display: flex;
+}
+
+.form-field__wrapper .form-field:not(:last-child) {
+    margin-right: 10px;
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 18px 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #000;
+}
+
+.form-field__textarea {
+    resize: vertical;
+    min-height: 180px;
+}
+
+/* Form info */
+.form-info {
+    width: 494px;
+    margin-left: 10px;
+}
+
+.definitions-card {
+    margin: 0;
+    padding: 20px 25px;
+    background-color: #f6f6f6;
+    color: #000;
+    border-radius: 10px;
+}
+
+.definition-cards__item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.definition-cards__item:not(:last-child) {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.definition-card__title {
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.definition_card__value {
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+}
